@@ -7,7 +7,7 @@ from [Open Calgary](https://data.calgary.ca/) in real time and lists them out ba
 
 ## `Quiz`
 This part of the assignment is a simple page that has 5 questions relating to programming.\
-The page loads in questions as well as the answers to those questions from an `XML` file through the use of`JavaScript`.\
+The page loads in questions as well as the answers to those questions from an `XML` file through the use of`JavaScript`.
 Once the user is finished and submits the quiz, it then brings them to the first screen with their grade printed out.
 
 ## `Car Rental`
