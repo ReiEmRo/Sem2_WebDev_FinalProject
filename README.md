@@ -19,5 +19,5 @@ with the other fields are restricted.\
 Once a client is selected, they will then be able to select a vehicle as well as additional options. After they checkout,
 a receipt is printed out at the bottom with their information as well as the total cost of what they are renting.
 
-## How to Run
+# How to Run
 Each part runs separately. Using any IDE, run them with a live server.
