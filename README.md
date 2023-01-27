@@ -15,4 +15,9 @@ The Car Rental page consists of two HTML pages, one which is just the index (int
 page but was not required for the assignment) and the other which is the main car rental page.\
 Using `JavaScript`, we were tasked with reading user search value and finding a corresponding value from the json
 document (a list of existing users) provided. The user must select a client account first otherwise interaction
-with the other fields are restricted.
+with the other fields are restricted.\
+Once a client is selected, they will then be able to select a vehicle as well as additional options. After they checkout,
+a receipt is printed out at the bottom with their information as well as the total cost of what they are renting.
+
+## How to Run
+Each part runs separately. Using any IDE, run them with a live server.
