@@ -11,6 +11,8 @@ The page loads in questions as well as the answers to those questions from an `X
 Once the user is finished and submits the quiz, it then brings them to the first screen with their grade printed out.
 
 ## `Car Rental`
-The Car Rental page consists of two HTML pages, one which is just the index (intended to be a home page but was not required for the assignment)\
-and the other which is the main car rental page.\
-aasas
+The Car Rental page consists of two HTML pages, one which is just the index (intended to be a home 
+page but was not required for the assignment) and the other which is the main car rental page.\
+Using `JavaScript`, we were tasked with reading user search value and finding a corresponding value from the json
+document (a list of existing users) provided. The user must select a client account first otherwise interaction
+with the other fields are restricted.
