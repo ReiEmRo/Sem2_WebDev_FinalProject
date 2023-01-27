@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>City of Calgary Datasets</title>
+
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="index.js"></script>
+    <script src="data/greenLineStations.js"></script>
+    <script src="data/parksSignage.js"></script>
+    <script src="data/parkSeatings.js"></script>
+    <script src="data/publicArt.js"></script>
+</head>
+
+<body>
+    <div id="border">
+        <h1>City of Calgary Datasets</h1>
+        <hr><br>
+        <label for="selections"><b>Select Data Set: </b></label>
+        <select id="selections" onchange="getHTML()">
+            <option style="align-content: center;">---- Select Option ----</option>
+            <option value="1">Green Line Stations</option>
+            <option value="2">Park Seating Locations</option>
+            <option value="3">Park Signage</option>
+            <option value="4">Public Art Locations</option>
+        </select>
+
+        <div id="htmlOutput"></div>
+    </div>
+</body>
+</html>

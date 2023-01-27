@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="greenLineStations.js"></script>
+</head>
+
+<body onload="adddata1()">
+    <h2>Green Line Stations</h2>
+
+    <table>
+        <tr>
+        <td><label for="order">Search by station number: </label></td>
+        <td><input type="text" id="order" onkeyup="searchStations(this.id);"></td>
+        </tr>
+        <tr>
+            <td><label for="name">Search by station name: </label></td>
+            <td><input type="text" id="name" onkeyup="searchStations(this.id);"></td>
+        </tr>
+        <tr>
+            <td><label for="segment">Search by segment: </label></td>
+            <td><input type="text" id="segment" onkeyup="searchStations(this.id);"></td>
+        </tr>
+        <tr>
+            <td><label for="underground">Search if underground: </label></td>
+            <td><input type="text" id="underground" onkeyup="searchStations(this.id);"></td>
+        </tr>
+    </table>
+    <br>
+
+    <table id="output" class="result"></table>
+</body>
+</html>

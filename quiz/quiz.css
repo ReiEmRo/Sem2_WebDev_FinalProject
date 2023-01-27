@@ -1,0 +1,17 @@
+
+body {
+    width: 925px;
+    margin: 10px auto;
+    background: #999999;
+}
+
+#border {
+    padding: 10px 15px 30px 15px;
+    background-color: rgb(250, 250, 255);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px;
+}
+
+h1 {
+    text-align: center;
+}

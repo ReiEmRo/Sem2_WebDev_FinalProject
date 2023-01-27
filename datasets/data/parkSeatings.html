@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Park Seating Locations</title>
+
+    <script src="parkSeatings.js"></script>
+</head>
+
+<body onload="adddata2()">
+<h2>Park Seating Locations</h2>
+
+<table>
+    <tr>
+        <td><label for="assettype">Search by asset type: </label></td>
+        <td><input type="text" id="assettype" onkeyup="searchSeat(this.id);"></td>
+    </tr>
+    <tr>
+        <td><label for="type">Search by seating type: </label></td>
+        <td><input type="text" id="type" onkeyup="searchSeat(this.id);"></td>
+    </tr>
+    <tr>
+        <td><label for="assetcode">Search by asset code: </label></td>
+        <td><input type="text" id="assetcode" onkeyup="searchSeat(this.id);"></td>
+    </tr>
+    <tr>
+        <td><label for="steward">Search by steward: </label></td>
+        <td><input type="text" id="steward" onkeyup="searchSeat(this.id);"></td>
+    </tr>
+</table>
+<br>
+
+<table id="output" class="result"></table>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Public Art Locations</title>
+
+    <script src="publicArt.js"></script>
+</head>
+
+<body onload="adddata4()">
+<h2>Public Art Locations</h2>
+
+<table>
+    <tr>
+        <td><label for="artid">Search by art id: </label></td>
+        <td><input type="text" id="artid" onkeyup="searchArt(this.id);"></td>
+    </tr>
+    <tr>
+        <td><label for="tabname">Search by tab name: </label></td>
+        <td><input type="text" id="tabname" onkeyup="searchArt(this.id);"></td>
+    </tr>
+    <tr>
+        <td><label for="title">Search by title: </label></td>
+        <td><input type="text" id="title" onkeyup="searchArt(this.id);"></td>
+    </tr>
+    <tr>
+        <td><label for="artist">Search by artist name: </label></td>
+        <td><input type="text" id="artist" onkeyup="searchArt(this.id);"></td>
+    </tr>
+</table>
+<br>
+
+<table id="output" class="result"></table>
+</body>
+</html>

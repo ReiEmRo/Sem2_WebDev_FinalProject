@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Park Signs</title>
+</head>
+
+<body onload="adddata3();">
+    <h2>Park Signs</h2>
+
+    <table>
+        <tr>
+            <td><label for="asset">Search by asset code: </label></td>
+            <td><input type="text" id="asset" onkeyup="searchParkSigns(this.id);"></td>
+        </tr>
+        <tr>
+            <td><label for="wamid">Search by WAM id: </label></td>
+            <td><input type="text" id="wamid" onkeyup="searchParkSigns(this.id);"></td>
+        </tr>
+        <tr>
+        <td><label for="type">Search by type: </label></td>
+        <td><input type="text" id="type" onkeyup="searchParkSigns(this.id);"></td>
+        </tr>
+        <tr>
+            <td><label for="status">Search by status: </label></td>
+            <td><input type="text" id="status" onkeyup="searchParkSigns(this.id);"></td>
+        </tr>
+    </table>
+    <br>
+
+    <table id="output" class="result"></table>
+</body>
+</html>
